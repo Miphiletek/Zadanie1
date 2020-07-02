@@ -29,7 +29,7 @@ namespace Zadanie1
             double trifact =Factorial( kolvo - popad);
 
             double veroyntost = vtorfact / (pervfact * trifact)*Math.Pow(ver,popad)*Math.Pow(promax,kolvo-popad);
-            double rez =Math.Round(veroyntost,y);
+            double rez =Math.Round(veroyntost,y)*100;
             Console.WriteLine("Вероятность нужного количества попаданий {0} ",rez+" % ");
 
         }
